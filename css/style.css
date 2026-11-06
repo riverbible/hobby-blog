@@ -12,3 +12,8 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
