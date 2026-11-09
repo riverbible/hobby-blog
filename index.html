@@ -10,11 +10,11 @@
 
 <body>
   <header>
-    <h2 class="logo">📢데바데 소식</h2>
+    <h1 class="logo">📢데바데 소식</h1>
     <nav>
       <ul class="menu">
-        <li><a href="#">최근 글</a></li>
-        <li><a href="#">공략집</a></li>
+        <li><a href="#features">최근 글</a></li>
+        <li><a href="#walkthrough">공략집</a></li>
         <li><a href="#">방명록</a></li>
       </ul>
     </nav>
@@ -22,15 +22,15 @@
 
   <section class="hero">
     <p class="sub">dbd feature</p>
-    <h1>데바데 소식</h1>
+    <h2>데바데 소식</h2>
     <p>비대칭 PvP 게임 데드 바이 데이라이트의 최신 소식들</p>
-    <a href="#" class="new">최신 소식 보기</a>
+    <a href="#features" class="new">최신 소식 보기</a>
   </section>
 
   <main>
-    <section class="hot-issue">
+    <section id="hot-issue">
       <p class="icon">📜</p>
-      <div class="info">
+      <div class="hot-info">
         <h3>10.3.0 PTB 업데이트 노트</h3>
         <p>2026/10/29 00:00 신규 챕터 테리파이어 테스트서버 출시</p>
       </div>
@@ -41,58 +41,65 @@
       </ul>
     </section>
 
-    <section class="features">
+    <section id="features">
       <h2>최근 글</h2>
-      <ul class="card-list">
-        <li class="card">
-          <p class="icon">🎃</p>
-          <p class="head-tag">이벤트 일정 소식</p>
+      <article class="post">
+        <div class="thumb">
+          🎃 <span class="date">11.04</span>
+        </div>
+        <div class="info">
+          <div class="cate">이벤트 일정 소식</div>
           <h3>할로윈 이벤트 종료</h3>
           <p>11월 4일 0시부로 할로윈 이벤트가 종료되었습니다.</p>
           <a href="#" class="more">더 읽기</a>
-          <p class="date">11.04</p>
-        </li>
-        <li class="card">
-          <p class="icon">📝</p>
-          <p class="head-tag">업데이트 소식</p>
+        </div>
+      </article>
+      <article class="post">
+        <div class="thumb">
+          📝 <span class="date">10.30</span>
+        </div>
+        <div class="info">
+          <div class="cate">업데이트 소식</div>
           <h3>10.2.2a 백엔드 업데이트 노트</h3>
           <p>2026/10/30 처형자, 착한 아이의 성능이 조정되었습니다.</p>
           <a href="#" class="more">더 읽기</a>
-          <p class="date">10.30</p>
-        </li>
-        <li class="card">
-          <p class="icon">📜</p>
-          <p class="head-tag">테스트서버 소식</p>
+        </div>
+      </article>
+      <article class="post">
+        <div class="thumb">
+          📜 <span class="date">10.29</span>
+        </div>
+        <div class="info">
+          <div class="cate">이벤트 일정 소식</div>
           <h3>10.3.0 PTB 업데이트 노트</h3>
           <p>2026/10/29 00:00 신규 챕터 테리파이어가 테스트서버에 출시되었습니다.<br>
             신규 살인마 테리파이어와 신규 생존자 시에나 쇼 추가<br>
             6개의 기술 조정 업데이트</p>
           <a href="#" class="more">더 읽기</a>
-          <p class="date">11.04</p>
-        </li>
-      </ul>
+        </div>
+      </article>
     </section>
 
-    <section class="walkthrough">
+    <section id="walkthrough">
       <h2>공략집</h2>
-      <ul class="grid-list">
-        <li class="grid">
+      <ul class="walkthrough">
+        <li class="p1">
           <span class="icon">🧑</span>
           <p>생존자 가이드</p>
         </li>
-        <li class="grid">
+        <li class="p2">
           <span class="icon">🗡️</span>
           <p>살인마 가이드</p>
         </li>
-        <li class="grid">
+        <li class="p3">
           <span class="icon">🗺️</span>
           <p>인게임 맵 구조</p>
         </li>
-        <li class="grid">
+        <li class="p4">
           <span class="icon">⚙️</span>
           <p>기술 & 아이템</p>
         </li>
-        <li class="grid">
+        <li class="p5">
           <span class="icon">📜</span>
           <p>업데이트 기록</p>
         </li>
@@ -104,6 +111,8 @@
       <p>데바데 개발 소식 취합 중</p>
     </footer>
   </main>
+
+  <a href="#" class="top">TOP</a>
 </body>
 
 </html>

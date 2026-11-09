@@ -17,3 +17,14 @@ main {
   max-width: 1000px;
   margin: 0 auto;
 }
+
+header {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+header .menu {
+  display: flex;
+  gap: 20px;
+}
