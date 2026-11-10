@@ -1,0 +1,68 @@
+@media screen and (max-width:768px) {
+  .hero::before {
+    opacity: 0.3;
+  }
+}
+
+@media screen and (max-width:500px) {
+  main {
+    max-width: 350px;
+  }
+
+  .hero {
+    justify-content: center;
+    background-position: top -100px center;
+  }
+
+  .hero::before {
+    opacity: 0.75;
+  }
+
+  .hero-center {
+    align-items: center;
+  }
+
+  #hot-issue {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding: 20px;
+  }
+
+  .post {
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .post:nth-child(odd) {
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .walkthrough {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 150px 150px 100px 100px;
+    gap: 10px;
+    grid-template-areas: "p1 p1" "p2 p2" "p3 p5" "p4 p4";
+  }
+
+
+  .walkthrough li.p1 {
+    font-size: 20px;
+  }
+
+  .walkthrough li.p2 {
+    font-size: 20px;
+  }
+
+  .p1 .icon,
+  .p2 .icon {
+    font-size: 48px;
+  }
+}
