@@ -303,4 +303,12 @@ footer {
   color: #fff;
   padding: 20px;
   border-radius: 50%;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: .3s;
+}
+
+body.scroll .top {
+  opacity: 1;
+  transform: translateY(0);
 }
