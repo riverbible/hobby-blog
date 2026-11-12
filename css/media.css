@@ -1,6 +1,16 @@
-@media screen and (max-width:768px) {
+@media screen and (max-width:800px) {
   .hero::before {
     opacity: 0.3;
+  }
+
+  .guide-content {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: auto;
+  }
+
+  .guide-content li {
+    height: 250px;
   }
 }
 
