@@ -240,6 +240,10 @@ section:not(.hero) {
   padding: 24px 0;
 }
 
+#guides h2 {
+  font-size: 24px;
+}
+
 .guide-tabs {
   display: flex;
   gap: 8px;
@@ -258,8 +262,13 @@ section:not(.hero) {
   transition: 0.3s;
 }
 
-.guide-tabs li.on button {
-  background-color: #1e1b4b;
+.guide-tabs li.on:nth-child(odd) button {
+  background-color: #3D5059;
+  color: #ffffff;
+}
+
+.guide-tabs li.on:nth-child(even) button {
+  background-color: #4B241C;
   color: #ffffff;
 }
 
@@ -335,6 +344,14 @@ section:not(.hero) {
   flex: 2.2;
   /* 가로 폭 넓어짐 */
   background-color: #1e1b4b;
+}
+
+.guide-content li.on:nth-child(odd) {
+  background-color: #3D5059;
+}
+
+.guide-content li.on:nth-child(even) {
+  background-color: #4B241C;
 }
 
 .guide-content li.on .badge,
@@ -437,6 +454,7 @@ footer {
   opacity: 0;
   transform: translateY(50px);
   transition: .3s;
+  z-index: 2;
 }
 
 body.scroll .top {

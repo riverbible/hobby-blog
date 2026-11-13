@@ -93,12 +93,15 @@
   }
 
   .m-nav-open .mob-nav-btn span:nth-child(2) {
-    transform: translateX(100%);
     opacity: 0;
   }
 
   .hero::before {
     opacity: 0.3;
+  }
+
+  .guide-tabs button {
+    text-wrap-mode: nowrap;
   }
 
   .guide-content {
@@ -151,6 +154,20 @@
     gap: 10px;
     justify-content: center;
     align-items: center;
+  }
+  
+  .guide-tabs button {
+    text-wrap-mode: wrap;
+  }
+
+  .guide-content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    height: auto;
+  }
+
+  .guide-content li {
+    height: 250px;
   }
 
   .walkthrough {
