@@ -36,7 +36,7 @@ header {
   position: sticky;
   top: 0;
   background-color: #05090C;
-  z-index: 1;
+  z-index: 2;
 }
 
 .header {
@@ -48,20 +48,27 @@ header {
   align-items: center;
 }
 
-.header .logo {
+.logo {
   color: #fff;
+  font-size: 30px;
 }
 
-.header .menu {
+nav .menu {
   display: flex;
   gap: 24px;
   color: #fff;
 }
 
+.mob-nav-btn {
+  display: none;
+}
+
 main {
+  position: relative;
   max-width: 1040px;
   margin: 0 auto;
   padding: 0 20px;
+  z-index: 1;
 }
 
 .hero {
@@ -74,7 +81,7 @@ main {
   height: 300px;
   display: flex;
   align-items: center;
-  z-index: -1;
+  z-index: 0;
 }
 
 .hero::before {
@@ -87,6 +94,7 @@ main {
   bottom: 0px;
   background-color: #000;
   z-index: -1;
+  pointer-events: none;
 }
 
 .hero-center {
