@@ -8,6 +8,7 @@
   <link rel="icon" type="image/png" href="./img/dbd_favicon.png">
   <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Noto+Sans+KR:wght@400;700&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.css" />
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/media.css">
 
@@ -33,21 +34,52 @@
           <li><a href="#walkthrough">공략집</a></li>
         </ul>
       </nav>
-        <a href="#" class="mob-nav-btn">
-          <span>0</span>
-          <span>1</span>
-          <span>2</span>
-        </a>
+      <a href="#" class="mob-nav-btn">
+        <span>0</span>
+        <span>1</span>
+        <span>2</span>
+      </a>
     </div>
   </header>
 
   <section class="hero">
-    <div class="hero-center">
-      <p class="sub">dbd feature</p>
-      <h2>데바데 소식</h2>
-      <p>비대칭 PvP 게임 데드 바이 데이라이트의 최신 소식들</p>
-      <div class="new">
-        <a href="#features">최신 소식 보기</a>
+    <div class="swiper hero-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide s01">
+          <div class="inner">
+            <p class="sub">dbd feature</p>
+            <h2>데바데 소식</h2>
+            <p>비대칭 PvP 게임 데드 바이 데이라이트의 최신 소식들</p>
+            <div class="new">
+              <a href="#features">최신 소식 보기</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide s02">
+          <div class="inner">
+            <p class="sub">dbd feature</p>
+            <h2>데바데 소식</h2>
+            <p>비대칭 PvP 게임 데드 바이 데이라이트의 최신 소식들</p>
+            <div class="new">
+              <a href="#features">최신 소식 보기</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide s03">
+          <div class="inner">
+            <p class="sub">dbd feature</p>
+            <h2>데바데 소식</h2>
+            <p>비대칭 PvP 게임 데드 바이 데이라이트의 최신 소식들</p>
+            <div class="new">
+              <a href="#features">최신 소식 보기</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="btn-wrap">
+        <div class="swiper-button-prev arrow"></div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next arrow"></div>
       </div>
     </div>
   </section>
@@ -187,6 +219,7 @@
 
   <a href="#" class="top">TOP</a>
 
+  <script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
   <script src="./js/app.js"></script>
 </body>
 

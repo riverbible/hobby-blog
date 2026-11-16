@@ -43,6 +43,18 @@ mNavBtn.addEventListener('click', (e) => {
   e.preventDefault();
   body.classList.toggle('m-nav-open');
 })
+
+const swiper = new Swiper('.hero-slider', {
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  pagination: {
+    el: '.swiper-pagination',
+  },
+  loop:true
+});
+
 /*
 
 navBtns.forEach(btn => {

@@ -13,8 +13,8 @@
     gap: 5px;
   }
 
-  .hero::before {
-    opacity: 0.3;
+  .hero .inner {
+    background-color: #0000003d;
   }
 
   .guide-tabs {
@@ -38,16 +38,16 @@
     max-width: 350px;
   }
 
-  .hero {
+  .hero .swiper-slide.s01 {
     justify-content: center;
     background-position: top -100px center;
   }
 
-  .hero::before {
-    opacity: 0.75;
+  .hero .inner {
+    background-color: #00000094;
   }
 
-  .hero-center {
+  .hero .inner {
     align-items: center;
   }
 
