@@ -214,7 +214,7 @@ main {
 .hero .swiper-slide.s02 {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center bottom;
+  background-position: center top;
   background-image: url(../img/wallpaper1.png);
 }
 
