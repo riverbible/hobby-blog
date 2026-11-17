@@ -6,7 +6,7 @@
   .logo {
     font-size: 24px;
   }
-  
+
   .tags {
     flex-wrap: wrap;
     justify-content: center;
@@ -58,6 +58,10 @@
     text-align: center;
     gap: 10px;
     padding: 20px;
+  }
+
+  .hot-info {
+    min-width: 0;
   }
 
   .post {
