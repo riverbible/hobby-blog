@@ -426,6 +426,11 @@ section:not(.hero) {
   transition: 0.3s;
 }
 
+.guide-tabs button:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 0 5px #000;
+}
+
 .guide-tabs li.on:nth-child(odd) button {
   background-color: #3D5059;
   color: #ffffff;
@@ -454,7 +459,12 @@ section:not(.hero) {
   background-color: #ede9fe;
   overflow: hidden;
   cursor: pointer;
-  transition: flex 0.4s, background-color 0.4s;
+  transition: flex 0.4s, background-color 0.4s, transform 0.3s;
+}
+
+.guide-content li:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 0 5px #000;
 }
 
 .guide-content .num {
