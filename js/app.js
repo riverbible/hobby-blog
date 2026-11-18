@@ -55,6 +55,8 @@ const swiper = new Swiper('.hero-slider', {
   loop:true
 });
 
+AOS.init();
+
 /*
 
 navBtns.forEach(btn => {
