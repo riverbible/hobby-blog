@@ -55,7 +55,9 @@ const swiper = new Swiper('.hero-slider', {
   loop:true
 });
 
-AOS.init();
+AOS.init({
+  duration:1000,
+});
 
 /*
 
